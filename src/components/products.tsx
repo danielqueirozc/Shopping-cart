@@ -24,7 +24,7 @@ export function Products() {
 
     return (
         (loading && <Loading />) ||     
-        (<section className="max-w-[1440px] m-auto pt-[120px] pr-[20px] pb-[50px grid grid-cols-4 gap-4">
+        (<section className="max-w-[1440px] m-auto pt-[120px] pr-[20px] pb-[50px] grid sm:grid-cols-1 md:grid-cols2 grid-cols-4 gap-4">
         {products.map((product: productProps) => {
          return <ProductCard key={product.id} product={product} />
         })}
