@@ -11,7 +11,7 @@ Um aplicativo de carrinho de compras simples usando React, TypeScript e Tailwind
 ## 🔧 Instalação
 
 1. Clone o repositório:
-git clone https://github.com/seu-usuario/shopping-cart.git
+git clone https://github.com/danielqueirozc/Shopping-cart.git
 
 Copy
 Insert
