@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo de carrinho de compras simples usando React, TypeScript e Tailwind CSS.
 
-Currently, two official plugins are available:
+## Tecnologias usadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- TypeScript
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## Instalação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone o repositório:
+git clone https://github.com/seu-usuario/shopping-cart.git
 
-- Configure the top-level `parserOptions` property like this:
+Copy
+Insert
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. Instale as dependências:
+npm install
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Copy
+Insert
+
+3. Inicie o servidor de desenvolvimento:
+npm run dev
+
+Copy
+Insert
+
+4. Abra o navegador em `http://localhost:3000` para ver o aplicativo em funcionamento.
+
+## Como usar
+
+1. Adicione produtos ao carrinho de compras clicando no botão "Adicionar ao carrinho".
+2. Você pode excluir itens do carrinho de compras clicando no botão "Excluir".
+3. Você pode visualizar o carrinho de compras clicando no ícone de carrinho de compras no canto superior direito da página.
